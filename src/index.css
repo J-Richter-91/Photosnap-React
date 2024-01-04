@@ -1166,6 +1166,12 @@ footer{
         width: 100%;
     }
 
+    .row-1-heading, .row-2-heading,
+     .row-3-heading, .row-1-description, 
+     .row-2-description, .row-3-description{
+        width: 320px;
+    }
+
     .row-3-hero{
         grid-row-start: 5;
     }
@@ -1212,8 +1218,14 @@ footer{
     }
 
     /*Features & Pricing Header*/
+
+
     .features-header, .pricing-header{
         flex-direction: column;
+    }
+
+    .features-header-description, .features-header-title{
+        width: 340px;
     }
 
     .features-header-text-container, .pricing-header-text-container{
@@ -1225,6 +1237,10 @@ footer{
     }
 
     /*Pricing Cards*/
+    .pricing-header-title, .pricing-header-description{
+        width: 340px;
+    }
+
     .price-card-container{
         width: 318px;
         height: 407px;
