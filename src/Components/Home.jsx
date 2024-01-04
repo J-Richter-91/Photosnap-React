@@ -35,10 +35,10 @@ export default function Home(){
             <img className='row-2-hero' src={`assets/beautiful-stories.jpg`} />
             <div className="row-2-text-container">
             <div className="row-2-text-overlay">
-                        <h1 className='row-2-heading'>Create and share your photo stories. </h1>
+                        <h1 className='row-2-heading'>BEAUTIFUL STORIES EVERY TIME</h1>
                         <p className='row-2-description'>
-                            Photosnap is a platform for photographers and visual storytellers. 
-                            We make it easy to share photos, tell stories and connect with others.
+                        We provide design templates to ensure your stories look terrific. 
+                        Easily add photos, text, embed maps and media from other networks. Then share your story with everyone.
                         </p>
                         <div className="get-an-invite-container">
                             <p className='dark-invite-text'>Get an Invite</p>
@@ -52,10 +52,10 @@ export default function Home(){
 
             <div className="row-3-text-container">
             <div className="row-3-text-overlay">
-                        <h1 className='row-3-heading'>Create and share your photo stories. </h1>
+                        <h1 className='row-3-heading'>DESIGNED FOR EVERYONE</h1>
                         <p className='row-3-description'>
-                            Photosnap is a platform for photographers and visual storytellers. 
-                            We make it easy to share photos, tell stories and connect with others.
+                        Photosnap can help you create stories that resonate with your audience.  
+                        Our tool is designed for photographers of all levels, brands, businesses you name it. 
                         </p>
                         <div className="get-an-invite-container">
                             <p className='dark-invite-text'>Get an Invite</p>
