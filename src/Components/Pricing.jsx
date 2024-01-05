@@ -69,7 +69,7 @@ export default function Pricing(){
                             </div>
                             <div className="card-price-container">
                                 <p className='card-plan-price'>{isChecked ? '$190.00' : '$19.00'}</p>
-                                <p className='card-bill-cycle'>per month</p>
+                                <p className='card-bill-cycle'>{isChecked ? 'per year' : 'per month'}</p>
                             </div>
                             
                         </div>
@@ -85,7 +85,7 @@ export default function Pricing(){
                             </div>
                             <div className="card-price-container">
                                 <p className='card-plan-price'>{isChecked ? '$390.00' : '39.00'}</p>
-                                <p className='card-bill-cycle'>per month</p>
+                                <p className='card-bill-cycle'>{isChecked ? 'per year' : 'per month'}</p>
                             </div>
                            
                             
@@ -102,7 +102,7 @@ export default function Pricing(){
                             </div>
                             <div className="card-price-container">
                                 <p className='card-plan-price'>{isChecked ? '$990.00' : '$99.00'}</p>
-                                <p className='card-bill-cycle'>per month</p>
+                                <p className='card-bill-cycle'>{isChecked ? 'per year' : 'per month'}</p>
                             </div>
                         </div>
                         <button className='card-button'>PICK PLAN</button>
